@@ -300,7 +300,9 @@
     padding: 0;
   }
   .bg-inverse {
-    background: #4cc1ea;
+    background-image: -moz-linear-gradient(0deg, #005983 0%, #71f8fb 100%);
+    background-image: -webkit-linear-gradient(0deg, #005983 0%, #71f8fb 100%);
+    background-image: -ms-linear-gradient(0deg, #005983 0%, #71f8fb 100%);
   }
   .navbar-expand-md .navbar-brand,
   .navbar-expand-md .navbar-toggler {
